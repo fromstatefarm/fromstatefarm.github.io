@@ -226,6 +226,12 @@
                                         text-align: center;
                                         line-height: 1.3rem;
                                     }
+                                  
+                                    .navbar__item {
+                                        height: 0px;
+                                        padding: 20px;
+                                    }
+                                  
                                     .main__container {
                                         width: 100%;
                                         padding: 1rem;
