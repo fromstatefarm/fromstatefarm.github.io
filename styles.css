@@ -1,0 +1,305 @@
+                                * {
+                                    box-sizing: border-box;
+                                    margin: 0;
+                                    padding: 0;
+                                    font-family: 'roboto', sans-serif;
+                                }
+                                
+                                .navbar {
+                                    background: #141414;
+                                    height: 80px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    font-size: 1.2rem;
+                                    position: relative;
+                                    top: 0;
+                                    z-index: 999;
+                                    max-width: 100%;
+                                }
+                                
+                                .navbar__container {
+                                    justify-content: space-between;
+                                    height: 67px;
+                                    z-index: 1;
+                                    width: 100%;
+                                    max-width: 100%;
+                                    margin: 0 auto;
+                                    padding: 22px;
+                                }
+                                
+                                .fa-gem {
+                                    margin-right: .5rem;
+                                }
+                                
+                                .navbar__menu {
+                                    display: flex;
+                                    align-items: center;
+                                    list-style: none;
+                                    text-align: center;
+                                    max-width: 100%;
+                                }
+                                
+                                .navbar__item {
+                                    height: 0px;
+                                    padding: 50px;
+                                }
+                                
+                                .navbar__links {
+                                    color: rgb(236, 236, 236);
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    text-decoration: none;
+                                    height: 100%;
+                                    max-width: 100%;
+                                }
+                                
+                                .navbar__btn {
+                                    display: grid;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding: 0 1.5rem;
+                                    width: 100%;
+                                    max-width: 100%;
+                                }
+                                
+                                .button {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    text-decoration: none;
+                                    padding: 8px 30px;
+                                    height: 100%;
+                                    width: 100%;
+                                    border: none;
+                                    outline: none;
+                                    border-radius: 4.5px;
+                                    background: rgb(255, 255, 255);
+                                    color: #000000;
+                                    max-width: 100%;
+                                }
+                                
+                                .button:hover {
+                                    background: #a0a0a0;
+                                    transition: all 0.3s ease;
+                                }
+                                
+                                .navbar__links:hover {
+                                    color: rgb(209, 209, 209);
+                                    transition: all 0.3s ease;
+                                }
+                                /* Hero Section CSS*/
+                                
+                                * {
+                                    box-sizing: border-box;
+                                }
+                                
+                                .main {
+                                    background-color: #141414;
+                                }
+                                
+                                .main__container {
+                                    padding: 1rem;
+                                    max-width: 50%;
+                                    margin: 0;
+                                    display: grid;
+                                }
+                                
+                                .main__logo {
+                                    display: flex;
+                                    max-width: 40%;
+                                    margin: auto 0;
+                                    padding: 7rem;
+                                }
+                                
+                                .main__content {
+                                    display: flex;
+                                    color: #ffffff;
+                                    padding: 0 7rem;
+                                    max-width: 100%;
+                                    margin: 0;
+                                    font-size: 1.5rem;
+                                }
+                                
+                                .main__example1 {
+                                    max-width: 100%;
+                                    display: flex;
+                                    width: 50%;
+                                    position: absolute;
+                                    right: 0%;
+                                    top: 30%;
+                                }
+                                
+                                html {
+                                    background-color: #141414;
+                                    background-size: cover;
+                                }
+                                
+                                @media (max-width: 1300px) {
+                                    .main__content {
+                                        font-size: 1.3rem;
+                                        display: grid;
+                                        color: #ffffff;
+                                        padding: 0 2rem;
+                                        max-width: 50%;
+                                        width: 60%;
+                                        margin: 0;
+                                        width: 80%;
+                                    }
+                                    .main__container {
+                                        width: 100%;
+                                        padding: 2rem;
+                                        max-width: 100%;
+                                        margin: 0;
+                                        display: grid;
+                                    }
+                                    .navbar__item {
+                                        height: 0px;
+                                        padding: 30px;
+                                    }
+                                    .main__logo {
+                                        width: 500px;
+                                        max-width: 100%;
+                                        height: auto;
+                                        display: flex;
+                                        margin: 0;
+                                        padding: 2rem;
+                                        position: relative;
+                                    }
+                                }
+                                
+                                @media (max-width: 1100px) {
+                                    .main__content {
+                                        font-size: 1.3rem;
+                                        display: flex;
+                                        color: #ffffff;
+                                        padding: 0 1rem;
+                                        max-width: 100%;
+                                        margin: 0;
+                                        width: 100%;
+                                        text-align: center;
+                                    }
+                                    .main__container {
+                                        width: 100%;
+                                        padding: 1rem;
+                                        max-width: 100%;
+                                        margin: 0;
+                                        display: grid;
+                                    }
+                                    .navbar__item {
+                                        height: 0px;
+                                        padding: 30px;
+                                    }
+                                    .main__logo {
+                                        width: 350px;
+                                        max-width: 100%;
+                                        height: auto;
+                                        display: grid;
+                                        margin: 0 auto;
+                                        padding: 1rem;
+                                        place-items: center;
+                                        align-items: center;
+                                        justify-content: center;
+                                        position: relative;
+                                    }
+                                    .main__example1 {
+                                        max-width: 100%;
+                                        display: grid;
+                                        place-items: center;
+                                        width: 100%;
+                                        top: 50%;
+                                        padding: 2rem;
+                                        position: relative;
+                                    }
+                                }
+                                
+                                @media (max-width: 600px) {
+                                    .main__content {
+                                        font-size: 1rem;
+                                        display: flex;
+                                        color: #ffffff;
+                                        padding: 0 1rem;
+                                        max-width: 100%;
+                                        margin: 0;
+                                        width: 100%;
+                                        text-align: center;
+                                        line-height: 1.3rem;
+                                    }
+                                    .main__container {
+                                        width: 100%;
+                                        padding: 1rem;
+                                        max-width: 100%;
+                                        margin: 0;
+                                        display: grid;
+                                    }
+                                    .main__logo {
+                                        width: 350px;
+                                        max-width: 100%;
+                                        height: auto;
+                                        display: flex;
+                                        margin: 0 auto;
+                                        padding: 1rem;
+                                        place-items: center;
+                                        align-items: center;
+                                        justify-content: center;
+                                        position: relative;
+                                    }
+                                    .main__example1 {
+                                        max-width: 100%;
+                                        display: grid;
+                                        place-items: center;
+                                        width: 100%;
+                                        top: 52.5%;
+                                        position: relative;
+                                    }
+                                }
+                                
+                                @media (max-width: 500px) {
+                                    .main__content {
+                                        font-size: 1rem;
+                                        display: flex;
+                                        color: #ffffff;
+                                        padding: 0 1rem;
+                                        max-width: 100%;
+                                        margin: 0;
+                                        width: 100%;
+                                        text-align: center;
+                                        line-height: 1.3rem;
+                                    }
+                                    .main__container {
+                                        width: 100%;
+                                        padding: 1rem;
+                                        max-width: 100%;
+                                        margin: 0;
+                                        display: grid;
+                                    }
+                                    .navbar__item {
+                                        height: 0px;
+                                        padding: 30px;
+                                    }
+                                    .main__example1 {
+                                        max-width: 110%;
+                                        display: grid;
+                                        place-items: center;
+                                        width: 100%;
+                                        top: 52.5%;
+                                        position: relative;
+                                    }
+                                    .main__logo {
+                                        width: 350px;
+                                        max-width: 100%;
+                                        height: auto;
+                                        display: flex;
+                                        margin: 0 auto;
+                                        padding: 1em;
+                                        place-items: center;
+                                        align-items: center;
+                                        justify-content: center;
+                                        position: relative;
+                                    }
+                                }
+                                
+                                img {
+                                    border-radius: 50px;
+                                }
